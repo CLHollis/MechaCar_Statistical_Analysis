@@ -1,12 +1,12 @@
-# Background
+## Background
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
-# Programs used
+## Programs used
 - R v.4.1.2
 - R Studio v.2022.02.0_Build443
 - R studio’s tidyverse v.1.3.1
 
-# Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 
 Dataset: [MechaCar_mpg.csv](MechaCar_mpg.csv)
 
@@ -23,7 +23,7 @@ Dataset: [MechaCar_mpg.csv](MechaCar_mpg.csv)
 
 <p align="center"><img width="800" height="450" src="images/Del.1_linear_regression.JPG"></p>
   
-# Summary Statistics
+## Summary Statistics
 
 Dataset: [Suspension_Coil.csv](Suspension_Coil.csv)
 
@@ -38,7 +38,7 @@ Dataset: [Suspension_Coil.csv](Suspension_Coil.csv)
 
 <p align="center"><img width="800" height="350" src="images/Del.2_lot_summary.JPG"></p>
   
-# T-Tests on Suspension Coils
+## T-Tests on Suspension Coils
 
 ### **Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.**
 
@@ -85,13 +85,12 @@ Using a normal significance level of 0.05,
  - the two means are statistically DIFFERENT 
 
 <p align="center"><img width="450" height="600" src="images/Del.3_lot_summary_t-test.JPG"></p>
-  
-### **Summary**
+
 Lot 3 is the only mean that can be explained by random chance. Some questions to ask would be:
  - Are there any outliers in lot 3? If so, is it incorrect data that we can omit?
  - Is it necessary to care if lot 3 is statistically different? What if it is okay for a PSI to be in the same range that they are in, but to build our car we just want better PSI to make the best performing car possible?
   
-# Study Design: MechaCar vs Competition
+## Study Design: MechaCar vs Competition
 Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 1. If I were buying a car and comparing the MechaCar manufacturer spec to other car manufacturers, these metrics would be of interest to a consumer:
